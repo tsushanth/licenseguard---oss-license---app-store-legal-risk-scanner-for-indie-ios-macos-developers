@@ -1,0 +1,59 @@
+{
+  "pins": [
+    {
+      "identity": "alamofire",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/Alamofire/Alamofire",
+      "state": {
+        "revision": "f75ee5b1e2e4e5b1e0e5b1e0e5b1e0e5b1e0e5b1",
+        "version": "5.9.1"
+      }
+    },
+    {
+      "identity": "kingfisher",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/onevcat/Kingfisher",
+      "state": {
+        "revision": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+        "version": "7.11.0"
+      }
+    },
+    {
+      "identity": "lottie-ios",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/airbnb/lottie-ios",
+      "state": {
+        "revision": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+        "version": "4.4.3"
+      }
+    },
+    {
+      "identity": "ffmpegkit",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/arthenica/ffmpeg-kit",
+      "state": {
+        "revision": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+        "version": "6.0"
+      }
+    },
+    {
+      "identity": "exampleagplsynckit",
+      "kind": "remoteSourceControl",
+      "location": "https://example.invalid/example-agpl-sync-kit",
+      "state": {
+        "revision": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "identity": "some-unlisted-utility",
+      "kind": "remoteSourceControl",
+      "location": "https://github.com/example/some-unlisted-utility",
+      "state": {
+        "revision": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+        "version": "0.3.0"
+      }
+    }
+  ],
+  "version": 2
+}

@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" "5.9.1"
+github "SnapKit/SnapKit" "5.7.1"
+github "airbnb/lottie-ios" "4.4.3"
+github "arthenica/ffmpeg-kit" "6.0"
+github "example/some-unlisted-utility" "0.3.0"

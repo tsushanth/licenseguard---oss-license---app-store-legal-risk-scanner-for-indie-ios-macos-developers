@@ -1,0 +1,87 @@
+{
+  "alamofire": {
+    "license": "MIT",
+    "source_url": "https://github.com/Alamofire/Alamofire"
+  },
+  "sdwebimage": {
+    "license": "MIT",
+    "source_url": "https://github.com/SDWebImage/SDWebImage"
+  },
+  "kingfisher": {
+    "license": "MIT",
+    "source_url": "https://github.com/onevcat/Kingfisher"
+  },
+  "snapkit": {
+    "license": "MIT",
+    "source_url": "https://github.com/SnapKit/SnapKit"
+  },
+  "rxswift": {
+    "license": "MIT",
+    "source_url": "https://github.com/ReactiveX/RxSwift"
+  },
+  "swiftyjson": {
+    "license": "MIT",
+    "source_url": "https://github.com/SwiftyJSON/SwiftyJSON"
+  },
+  "moya": {
+    "license": "MIT",
+    "source_url": "https://github.com/Moya/Moya"
+  },
+  "grdb.swift": {
+    "license": "MIT",
+    "source_url": "https://github.com/groue/GRDB.swift"
+  },
+  "reactivecocoa": {
+    "license": "MIT",
+    "source_url": "https://github.com/ReactiveCocoa/ReactiveCocoa"
+  },
+  "promisekit": {
+    "license": "MIT",
+    "source_url": "https://github.com/mxcl/PromiseKit"
+  },
+  "swiftlint": {
+    "license": "MIT",
+    "source_url": "https://github.com/realm/SwiftLint"
+  },
+  "cryptoswift": {
+    "license": "Zlib",
+    "source_url": "https://github.com/krzyzanowskim/CryptoSwift"
+  },
+  "lottie-ios": {
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/airbnb/lottie-ios"
+  },
+  "lottie": {
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/airbnb/lottie-ios"
+  },
+  "realm": {
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/realm/realm-swift"
+  },
+  "realm-swift": {
+    "license": "Apache-2.0",
+    "source_url": "https://github.com/realm/realm-swift"
+  },
+  "mobilevlckit": {
+    "license": "LGPL-2.1",
+    "source_url": "https://code.videolan.org/videolan/VLCKit"
+  },
+  "ffmpegkit": {
+    "license": "LGPL-3.0",
+    "source_url": "https://github.com/arthenica/ffmpeg-kit"
+  },
+  "ffmpeg-kit": {
+    "license": "LGPL-3.0",
+    "source_url": "https://github.com/arthenica/ffmpeg-kit"
+  },
+  "x264": {
+    "license": "GPL-2.0",
+    "source_url": "https://www.videolan.org/developers/x264.html"
+  },
+  "exampleagplsynckit": {
+    "license": "AGPL-3.0",
+    "source_url": "https://example.invalid/example-agpl-sync-kit",
+    "note": "Illustrative placeholder package used to exercise AGPL detection in this MVP's sample manifests. Not a real published package."
+  }
+}

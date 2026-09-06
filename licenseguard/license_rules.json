@@ -1,0 +1,67 @@
+{
+  "MIT": {
+    "risk": "permissive",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Permissive license: allows commercial redistribution, modification, and sublicensing with no requirement to disclose your own source. No conflict with Apple's App Store Review Guidelines or Apple Developer Program License Agreement."
+  },
+  "Apache-2.0": {
+    "risk": "permissive",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Permissive license with an express patent grant. Requires preserving copyright/license notices and stating changes to modified files, but does not require disclosing your app's source or restrict App Store distribution terms."
+  },
+  "BSD-2-Clause": {
+    "risk": "permissive",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Permissive license: only requires preserving the copyright notice and disclaimer in redistributions. No conflict with App Store distribution."
+  },
+  "BSD-3-Clause": {
+    "risk": "permissive",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Permissive license: requires notice preservation and prohibits using the author's name to endorse derived products, but does not restrict commercial or App Store redistribution."
+  },
+  "ISC": {
+    "risk": "permissive",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Functionally equivalent to the MIT license. No conflict with App Store distribution terms."
+  },
+  "Zlib": {
+    "risk": "permissive",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Permissive license: requires notice preservation for source distributions only. No conflict with App Store distribution."
+  },
+  "MPL-2.0": {
+    "risk": "weak-copyleft",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "File-level copyleft: if you modify a file licensed under MPL-2.0, that file's source must be made available under MPL-2.0. Combining unmodified or separately-filed MPL code with proprietary app code in a single App Store binary is permitted. Risk only arises if you directly edit MPL-licensed source files and fail to publish those changes."
+  },
+  "LGPL-2.1": {
+    "risk": "weak-copyleft",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Weak copyleft: LGPL Section 6 requires that a user of your app be able to relink a modified version of the LGPL component into your app (e.g. via dynamic linking, or by you providing object files / a relinking mechanism). Apple's App Store binaries are statically linked and code-signed, so there is no supported way for an end user to relink a component post-install. Shipping this on the App Store without dynamic linking or an explicit relinking mechanism is a common, frequently overlooked LGPL compliance gap."
+  },
+  "LGPL-3.0": {
+    "risk": "weak-copyleft",
+    "blocks_app_store": false,
+    "apple_tos_explanation": "Weak copyleft with the same relinking requirement as LGPL-2.1 (Section 4), plus LGPLv3's anti-Tivoization language, which is difficult to satisfy on a code-signed, sandboxed platform like iOS where end users cannot install modified binaries. Treat as review-required, not an automatic pass."
+  },
+  "GPL-2.0": {
+    "risk": "copyleft",
+    "blocks_app_store": true,
+    "apple_tos_explanation": "Strong copyleft: GPLv2 requires that anyone who receives the binary also receive (or be offered) the complete corresponding source and be free to modify and reinstall a modified version. Apple's Developer Program License Agreement and DRM/FairPlay code-signing prevent end users from installing modified binaries on their own devices, which directly conflicts with GPLv2's redistribution and modification freedoms. This is the same conflict that got VLC pulled from the App Store in 2011."
+  },
+  "GPL-3.0": {
+    "risk": "copyleft",
+    "blocks_app_store": true,
+    "apple_tos_explanation": "Strong copyleft with the same redistribution/modification conflict as GPLv2, plus GPLv3's explicit anti-Tivoization clause (Section 6) requiring 'Installation Information' so users can install modified versions on the device they received the software on. Apple's code-signing and App Store distribution model makes this impossible to satisfy."
+  },
+  "AGPL-3.0": {
+    "risk": "network-copyleft",
+    "blocks_app_store": true,
+    "apple_tos_explanation": "Network copyleft: in addition to GPLv3's redistribution/modification requirements, AGPLv3 Section 13 requires offering complete corresponding source to any user who interacts with the software over a network (e.g. an app talking to an AGPL-licensed backend/library it embeds). This compounds the same App Store code-signing conflict as GPL, with an additional source-disclosure obligation most apps do not meet."
+  },
+  "Unknown": {
+    "risk": "unknown",
+    "blocks_app_store": null,
+    "apple_tos_explanation": "No license information found in the curated database for this package. Manually check the package's LICENSE file before shipping — unidentified licenses cannot be assumed permissive."
+  }
+}

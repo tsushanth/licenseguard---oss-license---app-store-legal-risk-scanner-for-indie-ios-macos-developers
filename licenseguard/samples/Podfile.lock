@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.9.1)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SnapKit (5.7.1)
+  - MobileVLCKit (3.5.1)
+  - x264 (0.164.3101)
+
+DEPENDENCIES:
+  - Alamofire
+  - MobileVLCKit
+  - SDWebImage
+  - SnapKit
+  - x264
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MobileVLCKit
+    - SDWebImage
+    - SnapKit
+    - x264
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f22d7febf0119ea88c4d5db61e58fa2a7c
+  MobileVLCKit: 8d7c1b6c4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b
+  SDWebImage: 750fc75b09258580445fa754fe5eb26bcdf27356
+  SnapKit: cf48800d99c8fa2648088545ac41c2a4d9eb0656
+  x264: 1a2b3c4d5e6f1a2b3c4d5e6f1a2b3c4d5e6f1a2b
+
+PODFILE CHECKSUM: 9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b
+
+COCOAPODS: 1.15.2

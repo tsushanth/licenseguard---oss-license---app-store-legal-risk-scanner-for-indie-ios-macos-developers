@@ -262,7 +262,11 @@ def main(argv=None):
     license_db = load_json(DEFAULT_LICENSE_DB)
     license_rules = load_json(DEFAULT_LICENSE_RULES)
 
-    manifest_path, manifest_type = find_manifest(target)
+    try:
+        manifest_path, manifest_type = find_manifest(target)
+    except (FileNotFoundError, ValueError) as e:
+        print(f"Error: {e}", file=sys.stderr)
+        return 1
     deps = PARSERS[manifest_type](manifest_path)
 
     if not deps:
